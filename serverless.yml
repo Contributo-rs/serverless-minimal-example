@@ -1,0 +1,15 @@
+service: helloserverless
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stackName: 'helloserverless'
+  region: eu-central-1
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello-serverless
+          method: get
