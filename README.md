@@ -1,6 +1,6 @@
 ### Introduction
 
-In [this post](contributo.rs/blog/deploy-your-first-lambda) we cover all the steps needed to deploy your first serverless endpoint, 
+In [this post](http://contributo.rs/blog/deploy-your-first-lambda) we cover all the steps needed to deploy your first serverless endpoint, 
 however if you want to skip the details and deploy this repository, just copy your `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` into the `.env` file and run:
 
 ```bash
@@ -45,4 +45,4 @@ Now you can test your endpoint (make sure you use your endpoint url from the out
 curl https://k0nttg9a3f.execute-api.eu-central-1.amazonaws.com/dev/hello-serverless
 ```
 
-Read more on [Contributo.rs](contributo.rs)
+Read more on [Contributo.rs](http://contributo.rs)
